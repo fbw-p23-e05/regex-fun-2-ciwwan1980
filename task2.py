@@ -10,7 +10,8 @@
 
 import re
 
-text = "Exercises number 1, 12, 13, and 34544 are important"
+# text = "Exercises number 1, 12, 13, and 34544 are important"
+text=input("Enter th text: ")
 
 # pattern = "\d{1,3}"
 pattern = '[0-9]{1,3}'
