@@ -12,7 +12,8 @@ import re
 
 text = "Exercises number 1, 12, 13, and 34544 are important"
 
-pattern = "\d{1,3}"
+# pattern = "\d{1,3}"
+pattern = '[0-9]{1,3}'
 matches = re.findall(pattern, text)
 
 print(matches)
